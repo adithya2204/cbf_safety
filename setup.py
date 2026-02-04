@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
         'safety_node = cbf_safety.cbf_safety_node:main',
+        'safety_filter = cbf_safety.safety_filter:main',
 	    'simple_odom = cbf_safety.simple_odom:main',
         'homing = cbf_safety.homing:main',
         'choreographer_pause = cbf_safety.choreographer_pause:main',
