@@ -3,7 +3,7 @@ import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
 from nav_msgs.msg import Odometry
-from rclpy.qos import qos_profile_sensor_data # Best Effort + KeepLast(1)
+from rclpy.qos import qos_profile_sensor_data 
 from rclpy.executors import MultiThreadedExecutor
 import csv
 import time
